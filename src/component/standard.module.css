@@ -1,0 +1,40 @@
+.table {
+	border-spacing  : 0;
+	border-collapse : separate;
+
+	margin          : 2rem;
+
+	overflow        : hidden !important;
+}
+
+.tableHead {
+
+}
+
+.tableHeadRow {
+	color  : #787F85;
+
+	height : 2.5rem;
+}
+
+.tableHeadRow > th {
+	background : #16181A;
+}
+
+.tableHeadRow > th:first-of-type {
+	padding-left              : 1rem;
+	border-bottom-left-radius : 12px;
+	border-top-left-radius    : 12px;
+}
+
+.tableHeadRow > th:last-of-type {
+	padding-right              : 1rem;
+	border-bottom-right-radius : 12px;
+	border-top-right-radius    : 12px;
+}
+
+.selectCheckbox {
+	margin        : 0;
+	height        : 20px;
+	aspect-ratio  : 1;
+}
